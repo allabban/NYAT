@@ -1,7 +1,7 @@
 public class Hello {
     public static void main(String[] args) {
         Daire daire=new Daire(6);
-        Dikdortgen d =new Dikdortgen();
+        Dikdortgen d =new Dikdortgen(4,5);
         //
         daire.YazdirAlan();
         daire.YazdirCevre();
@@ -17,6 +17,7 @@ public class Hello {
         //
         daire4.YazdirAlan();
         daire4.YazdirCevre();
+        d.yazdir();
         
     }
 }
