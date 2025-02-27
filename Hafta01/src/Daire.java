@@ -1,7 +1,8 @@
 public class Daire {
     private double yaricap;
+
     public Daire(double yaricap){
-        yaricap=yaricap;
+        this.yaricap=yaricap;
     }
     private double AlanHisapla(){
         return Math.PI * yaricap * yaricap;

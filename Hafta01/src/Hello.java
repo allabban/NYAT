@@ -1,6 +1,7 @@
 public class Hello {
     public static void main(String[] args) {
         Daire daire=new Daire(6);
+        Dikdortgen d =new Dikdortgen();
         //
         daire.YazdirAlan();
         daire.YazdirCevre();
